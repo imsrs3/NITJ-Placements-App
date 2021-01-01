@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="example.hp.nitjplacements.addcompany">
+     android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <!--Put form controls here-->
+        <EditText
+            android:id="@+id/companyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Company Name"
+            android:inputType="textPersonName"></EditText>
+
+        <EditText
+            android:id="@+id/companylink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Company Link"
+            android:inputType="textUri"></EditText>
+        <EditText
+            android:id="@+id/contactperson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Contact Person"
+            android:inputType="textPersonName"></EditText>
+
+        <EditText
+            android:id="@+id/contactemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Contact Email"
+            android:inputType="textEmailAddress"></EditText>
+
+        <EditText
+            android:id="@+id/contactnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Contact number"
+            android:inputType="phone"></EditText>
+        <EditText
+            android:id="@+id/companyinfo"
+            android:layout_height="wrap_content"
+            android:hint="Company Info"
+            android:layout_margin="15dp"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <Button
+            android:id="@+id/companysubmit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#263238"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>
+
+

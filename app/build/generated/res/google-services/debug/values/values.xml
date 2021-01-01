@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">210723071189-9vih2djejd5mqghsvdgac8ashsv0d3hl.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://nitj-placement.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">210723071189</string>
+    <string name="google_api_key" translatable="false">AIzaSyDSfEShnLbWaZcvPefOmL1GAynZy4G1gQY</string>
+    <string name="google_app_id" translatable="false">1:210723071189:android:785d237cccaf1585</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDSfEShnLbWaZcvPefOmL1GAynZy4G1gQY</string>
+    <string name="google_storage_bucket" translatable="false">nitj-placement.appspot.com</string>
+    <string name="project_id" translatable="false">nitj-placement</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "210723071189",
+    "firebase_url": "https://nitj-placement.firebaseio.com",
+    "project_id": "nitj-placement",
+    "storage_bucket": "nitj-placement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210723071189:android:785d237cccaf1585",
+        "android_client_info": {
+          "package_name": "example.hp.nitjplacements"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210723071189-l14iuqeqbdqip2h1csgvk97enqc1b38p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.hp.nitjplacements",
+            "certificate_hash": "21e9ee3f4f2f0fe93a76fa18a1787b74343781ab"
+          }
+        },
+        {
+          "client_id": "210723071189-9vih2djejd5mqghsvdgac8ashsv0d3hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSfEShnLbWaZcvPefOmL1GAynZy4G1gQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210723071189-9vih2djejd5mqghsvdgac8ashsv0d3hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

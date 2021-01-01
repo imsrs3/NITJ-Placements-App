@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/viewstudents" android:title="View Placed Students"></item>
+    <item android:id="@+id/viewoffer" android:title="View offer details"></item>
+    <item android:id="@+id/addstudents" android:title="Add placed students"></item>
+</menu>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/ScrollView01"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context="example.hp.nitjplacements.updatestudents">
+android:scrollbars="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+    <!--Put form controls here-->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Registered Email"
+        android:inputType="textEmailAddress"></EditText>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Name"
+        android:inputType="textPersonName"></EditText>
+
+
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Rollno"
+        android:inputType="text"></EditText>
+
+    <RadioGroup
+        android:id="@+id/placementgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+       >
+
+        <RadioButton
+            android:id="@+id/dream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Dream"
+           />
+
+        <RadioButton
+            android:id="@+id/nondream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Non dream"
+          />
+
+        <RadioButton
+            android:id="@+id/noplacement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No placement"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="343dp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/xpercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="10th percentage"
+        android:inputType="numberDecimal"></EditText>
+
+
+    <EditText
+        android:id="@+id/interpercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Inter percentage"
+        android:inputType="numberDecimal"></EditText>
+
+    <EditText
+        android:id="@+id/cgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Current CGPA"
+        android:inputType="numberDecimal"></EditText>
+    <EditText
+        android:id="@+id/backlogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Current Backlogs"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:id="@+id/contactnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Contact number"
+        android:inputType="phone"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Is a PR?" />
+    <RadioGroup
+        android:id="@+id/prgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        >
+
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Yes"
+            />
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="No"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/updatestudentsubmit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#263238"
+        android:text="Update" />
+
+</LinearLayout>
+</ScrollView>
